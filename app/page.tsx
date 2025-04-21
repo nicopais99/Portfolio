@@ -9,6 +9,7 @@ import { Github, Mail, MapPin } from "lucide-react"
 import { useState } from "react"
 
 export default function Home() {
+  console.log("Renderizado pagina principal.")
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100">
       {/* Header */}
